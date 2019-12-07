@@ -140,6 +140,7 @@ class UpdateProject extends Component {
                                         className="form-control form-control-lg"
                                         name="startDate"
                                         value={this.state.startDate}
+                                        onChange={this.onChange}
                                     />
                                 </div>
                                 <h6>Estimated End Date</h6>
@@ -149,6 +150,7 @@ class UpdateProject extends Component {
                                         className="form-control form-control-lg"
                                         name="endDate"
                                         value={this.state.endDate}
+                                        onChange={this.onChange}
                                     />
                                 </div>
 
