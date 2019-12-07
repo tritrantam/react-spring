@@ -3,7 +3,7 @@ package com.tritrantam.ppmtool.exceptions;
 public class ProjectIdExceptionResponse {
     private String projectIdentifier;
 
-    private ProjectIdExceptionResponse(String projectIdentifier){
+    public ProjectIdExceptionResponse(String projectIdentifier){
         this.projectIdentifier = projectIdentifier;
     }
 
